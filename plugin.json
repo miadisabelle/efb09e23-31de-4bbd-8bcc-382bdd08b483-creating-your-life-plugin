@@ -1,0 +1,30 @@
+{
+  "name": "creating-your-life-course",
+  "version": "1.0.0",
+  "description": "Complete support system for the 83-lesson 'Creating Your Life' course. Agents guide you from lesson 1 through course completion with practical support for goal setting, structural tension, patterns, and applying creation methodology to health and life.",
+  "author": {
+    "name": "Guillaume Isabelle",
+    "url": "https://github.com/jgwill"
+  },
+  "homepage": "https://github.com/miadisabelle/efb09e23-31de-4bbd-8bcc-382bdd08b483-creating-your-life-plugin",
+  "repository": "https://github.com/miadisabelle/efb09e23-31de-4bbd-8bcc-382bdd08b483-creating-your-life-plugin",
+  "license": "MIT",
+  "keywords": [
+    "creative-process",
+    "structural-tension",
+    "creating-your-life",
+    "robert-fritz",
+    "goal-setting",
+    "life-design"
+  ],
+  "agents": [
+    "./agents/course-guide.md",
+    "./agents/goal-clarifier.md",
+    "./agents/current-reality-mapper.md",
+    "./agents/structural-tension-holder.md",
+    "./agents/daily-creation-coach.md",
+    "./agents/oscillating-pattern-coach.md",
+    "./agents/advancing-pattern-coach.md",
+    "./agents/health-creator.md"
+  ]
+}
