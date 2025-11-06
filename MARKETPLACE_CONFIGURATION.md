@@ -14,7 +14,7 @@ This document verifies that the "Creating Your Life" course plugin is properly c
 - `plugins`: Array with one plugin entry
 
 **Plugin Entry Details** ✓
-- `name`: "creating-your-life-course"
+- `name`: "st" (Structural Tension - prefix for agent commands)
 - `source`: "./" (relative path to plugin root)
 - `description`: Clear description of plugin purpose
 - `version`: "1.0.0" (semantic versioning)

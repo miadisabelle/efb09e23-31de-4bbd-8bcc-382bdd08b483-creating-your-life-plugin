@@ -139,8 +139,8 @@ course-creating/
 ## How Users Install
 
 ```bash
-# Install via marketplace name
-claude plugin install course-creating
+# Install via short marketplace name (recommended)
+claude plugin install st
 
 # Or via repository owner/name
 claude plugin install miadisabelle/efb09e23-31de-4bbd-8bcc-382bdd08b483-creating-your-life-plugin
@@ -151,7 +151,14 @@ claude plugin install https://github.com/miadisabelle/efb09e23-31de-4bbd-8bcc-38
 
 ## How Users Use the Plugin
 
-After installation, users have access to 8 agents supporting the 12-week course:
+After installation, users have access to 8 agents via the **`st:`** prefix (Structural Tension).
+
+Example usage:
+- `agent-st:goal-clarifier` - Clarify desired outcomes
+- `agent-st:oscillating-pattern-coach` - Recognize repeating cycles
+- `agent-st:health-creator` - Apply framework to health
+
+The 8 agents supporting the 12-week course:
 
 1. **course-guide** - Navigate the 83 lessons
 2. **goal-clarifier** - Define desired outcomes

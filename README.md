@@ -37,7 +37,9 @@ This plugin provides **8 specialized agents** that guide you through the 83-less
 ## Installation
 
 ```bash
-claude plugin install jgwill/course-creating
+claude plugin install st
+# or
+claude plugin install miadisabelle/efb09e23-31de-4bbd-8bcc-382bdd08b483-creating-your-life-plugin
 ```
 
 ## How to Use This Plugin
