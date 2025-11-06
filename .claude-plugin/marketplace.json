@@ -1,0 +1,48 @@
+{
+  "name": "course-creating",
+  "owner": {
+    "name": "Guillaume Isabelle",
+    "email": "jgi@jgwill.com",
+    "url": "https://github.com/jgwill"
+  },
+  "metadata": {
+    "description": "Support agents for the 12-week 'Creating Your Life' course by Robert and Rosalind Fritz. Learn to be a creator through structural tension methodology.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "creating-your-life-course",
+      "source": "./",
+      "description": "Complete support system for the 83-lesson 'Creating Your Life' course. Agents guide you from lesson 1 through course completion with practical support for goal setting, structural tension, patterns, and applying creation methodology to health and life.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Guillaume Isabelle",
+        "url": "https://github.com/jgwill"
+      },
+      "homepage": "https://github.com/jgwill/src/course-creating",
+      "repository": "https://github.com/jgwill/src",
+      "license": "MIT",
+      "keywords": [
+        "creative-process",
+        "structural-tension",
+        "creating-your-life",
+        "robert-fritz",
+        "goal-setting",
+        "life-design"
+      ],
+      "category": "learning",
+      "strict": false,
+      "commands": [],
+      "agents": [
+        "./agents/course-guide.md",
+        "./agents/goal-clarifier.md",
+        "./agents/current-reality-mapper.md",
+        "./agents/structural-tension-holder.md",
+        "./agents/daily-creation-coach.md",
+        "./agents/oscillating-pattern-coach.md",
+        "./agents/advancing-pattern-coach.md",
+        "./agents/health-creator.md"
+      ]
+    }
+  ]
+}
